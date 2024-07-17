@@ -24,7 +24,7 @@ const Admin = () => {
   useEffect(() => {
     fetchUsers();
     fetchExams();
-  }, []);
+  },);
 
   const fetchExams = async () => {
     console.log(isExamIsRunning);
